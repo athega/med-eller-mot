@@ -1,11 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import WindData from './WindData';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <WindData />
+      <Text style={styles.hello}>Smask Ygfors</Text>
       <StatusBar style="auto" />
     </View>
   );
